@@ -34,6 +34,6 @@ class ModelTests(TestCase):
 			'test123'
 		)
 		# field is_superuser is set in PermissionsMixin
-        self.assertTrue(user.is_superuser)    
+		self.assertTrue(user.is_superuser)    
 		self.assertTrue(user.is_staff)
 
