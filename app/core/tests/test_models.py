@@ -33,6 +33,7 @@ class ModelTests(TestCase):
 			'test@wsm.com',
 			'test123'
 		)
-
-		self.assertTrue(user.is_superuser)    # field is_superuser is set in PermissionsMixin
+		# field is_superuser is set in PermissionsMixin
+        self.assertTrue(user.is_superuser)    
 		self.assertTrue(user.is_staff)
+
